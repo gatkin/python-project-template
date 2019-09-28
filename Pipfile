@@ -7,7 +7,7 @@ verify_ssl = true
 flake8 = "*"
 pydocstyle = "*"
 pylint = "*"
-pytest = "*"
+pytest = "==5.0.1" # Required version to work with VS code test plugin
 mypy = "==0.720"
 black = "==19.3b0"
 coverage = "*"

@@ -22,6 +22,10 @@ lint: type-check
 
 per-commit: lint coverage
 
+setup:
+	python3 -m pipenv install --dev
+	python3 -m pipenv shell
+
 test:
 	python -m pytest -vv
 
